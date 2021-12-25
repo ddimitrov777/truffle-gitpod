@@ -7,5 +7,5 @@ tasks:
   - name: GanacheCLI
     init:  >
       npm install -g ganache-cli &&
-      ganache-cli &&
       gp sync-done stepone
+  - init: npm install web3
